@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "localhost:8111";
 $user = "root";
 $password = "";
 $db = "cadastro";
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $sql = "select * from login where username= '" . $username . "' AND  password= '" . $password . "' ";
+    $sql = "select * from usuarios where nome= '" . $username . "' AND  senha= '" . $password . "' ";
 $result = mysqli_query($data, $sql);
 $row = mysqli_fetch_array($result);
 
