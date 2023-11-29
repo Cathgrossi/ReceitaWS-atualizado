@@ -9,7 +9,7 @@ switch ($_REQUEST["acao"]) {
         $senha = md5($_POST["senha"]);
         $data_nasc = $_POST["data_nasc"];
 
-        $sql = "INSERT INTO usuarios (nome, email, senha, data_nasc) VALUES ('{$nome}', '{$email}', '{$senha}', '{$data_nasc}')";
+        $sql = "INSERT INTO usuarios (nome, email, senha, data_nasc, usertype) VALUES ('{$nome}', '{$email}', '{$senha}', '{$data_nasc}','user')";
 
         $res = $conn->query($sql);
 
