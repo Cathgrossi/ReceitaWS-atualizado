@@ -1,6 +1,8 @@
 <h1 style="color: rgb(156, 109, 61)">Listar usuario</h1>
 <?php
 
+   // include('config.php');
+
     $sql = "SELECT * FROM usuarios";
 
     $res =  $conn->query($sql);

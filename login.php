@@ -121,12 +121,12 @@ if ($row !== null) {
                             </div>
                         <?php } ?>
                         <div class="form-group">
-                            <label for="username">Username</label>
+                            <label for="username">Usuario</label>
                             <input type="text" class="form-control" name="username" id="username" required>
                         </div>
 
                         <div class="form-group">
-                            <label for "password">Password</label>
+                            <label for "password">Senha</label>
                             <input type="password" class="form-control" name="password" id="password" required>
                         </div>
 

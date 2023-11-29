@@ -25,9 +25,9 @@
 </head>
 <body>
     <div class="center-div">
-        <h1 style="color:#9c6d3d">Novo Usuário</h1>
+        <h1 style="color:#9c6d3d">Cadastro</h1>
         <form action="salvar-usuario.php" method="POST">
-            <input type="hidden" name="acao" value="cadastrar2">
+            <input type="hidden" name="acao" value="cadastrar">
             <div class="mb-3">
                 <label>Nome</label>
                 <input type="text" name="nome" class="form-control">
